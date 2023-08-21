@@ -1,0 +1,22 @@
+@import url("styles/header.css");
+
+:root{
+    --cor-de-fundo: #EBECEE;
+    --branco: #ffff;
+    --amarelo: #FECD2F;
+    --roxo-gradiente: linear-gradient(94.49deg, #f41b9d 35.48%, #f287c7  143.32%);
+    --preto:#000000;
+    --fonte-principal: "Poppins";
+    --fonte-secundaria:"Josefin Sans";
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+h1{
+    background-color: white;
+}
